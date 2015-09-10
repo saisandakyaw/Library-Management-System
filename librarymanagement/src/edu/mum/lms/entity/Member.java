@@ -1,4 +1,4 @@
-package edu.mum.lms.entity;
+package edu.mum.lms.entities;
 
 public class Member extends Person {
 

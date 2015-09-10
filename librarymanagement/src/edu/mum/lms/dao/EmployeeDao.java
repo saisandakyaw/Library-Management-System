@@ -1,13 +1,12 @@
-package edu.mum.lms.controller;
+package edu.mum.lms.dao;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 
 import edu.mum.lms.commonUtil.JDBCUtil;
-import edu.mum.lms.entity.Employee;
-import edu.mum.lms.entity.EmployeeRole;
-import edu.mum.lms.entity.Person;
+import edu.mum.lms.entities.Employee;
+import edu.mum.lms.entities.EmployeeRole;
 
 public class EmployeeDao {
 

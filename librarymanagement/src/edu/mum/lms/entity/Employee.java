@@ -1,4 +1,4 @@
-package edu.mum.lms.entity;
+package edu.mum.lms.entities;
 
 import java.util.List;
 
@@ -45,10 +45,6 @@ public class Employee extends Person {
 
 	public void setRoles(List<EmployeeRole> roles) {
 		this.roles = roles;
-	}
-	
-	public enum EmployeeRole {
-	    Librarian, Administrator
 	}
 
 }

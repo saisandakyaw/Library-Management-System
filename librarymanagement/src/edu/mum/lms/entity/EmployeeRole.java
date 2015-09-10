@@ -1,5 +1,5 @@
-package edu.mum.lms.entity;
+package edu.mum.lms.entities;
 
 public enum EmployeeRole {
-	LIBRARIAN, ADMINISTRATOR
+	Librarian, Administrator
 }

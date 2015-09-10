@@ -1,4 +1,4 @@
-package edu.mum.lms.controller;
+package edu.mum.lms.dao;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.Map;
 import edu.mum.lms.commonUtil.DbClient;
 import edu.mum.lms.commonUtil.DbClient.FilterCondition;
 import edu.mum.lms.commonUtil.JDBCUtil;
-import edu.mum.lms.entity.Person;
+import edu.mum.lms.entities.Person;
 
 public class PersonDao {
     

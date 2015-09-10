@@ -1,4 +1,4 @@
-package edu.mum.lms.entity;
+package edu.mum.lms.entities;
 
 import java.util.List;
 
@@ -10,6 +10,8 @@ public class Book {
 	private String isbn;
 	private String title;
 	private List<Author> authors;
+	private int NoOfCopies;
+	private int maximumCheckOutDays;
 
 	public String getIsbn() {
 		return isbn;
@@ -33,6 +35,22 @@ public class Book {
 
 	public void setAuthors(List<Author> authors) {
 		this.authors = authors;
+	}
+
+	public int getNoOfCopies() {
+		return NoOfCopies;
+	}
+
+	public void setNoOfCopies(int noOfCopies) {
+		NoOfCopies = noOfCopies;
+	}
+
+	public int getMaximumCheckOutDays() {
+		return maximumCheckOutDays;
+	}
+
+	public void setMaximumCheckOutDays(int maximumCheckOutDays) {
+		this.maximumCheckOutDays = maximumCheckOutDays;
 	}
 
 }
