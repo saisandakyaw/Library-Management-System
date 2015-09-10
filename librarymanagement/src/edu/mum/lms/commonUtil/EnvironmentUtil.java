@@ -22,8 +22,8 @@ public class EnvironmentUtil {
     public static String getWorkDir(){
         if(workDir == null){
             workDir = findWorkDir();
-        } else if (System.getProperty("work_dir") != null) {
-            workDir = System.getProperty("work_dir");
+        } else if (System.getProperty("lms_conf") != null) {
+            workDir = System.getProperty("lms_conf");
         } else if (System.getenv("LMS_CONF") != null) {
             workDir = System.getenv("LMS_CONF");
         }

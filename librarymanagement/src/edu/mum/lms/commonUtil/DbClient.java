@@ -35,7 +35,7 @@ public class DbClient {
     public static void main(String[] argv) throws Exception {
         DbClient dbClient = new DbClient();
         dbClient.connectDb();
-        dbClient.insertRow("Person", "","Bidhut","Karki","655-242-233","1000 N", "fairfield", "IA", "54224");
+        dbClient.insertRow("Person", "1","Bidhut","Karki","655-242-233","1000 N", "fairfield", "IA", "54224");
         dbClient.close();
         
     }
